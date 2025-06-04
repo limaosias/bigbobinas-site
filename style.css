@@ -1,71 +1,94 @@
+/* Reset básico */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fdf6e3;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 400px;
-  position: relative;
+  background-color: #fdf5e6;
+  color: #222;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url('https://cdn.glitch.global/889c0cbc-74fa-4b3a-9c8d-0e7446e6d1a3/LogoBig.jpg?v=1747941326192') no-repeat center;
-  background-size: 400px;
-  opacity: 0.03;
-  pointer-events: none;
-  z-index: 0;
-}
-
-header {
-  background-color: #eedcaa;
+/* Barra de navegação */
+.navbar {
+  background-color: #edd8a0;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
-.logo img {
-  height: 50px;
-  margin-right: 20px;
-}
-
-.navbar {
-  display: flex;
-  gap: 15px;
-}
-
-.navbar a,
-.dropbtn {
-  background: none;
-  border: none;
+.navbar a {
+  float: left;
+  display: block;
   color: #000;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
 }
 
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Dropdown */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  background-color: #eedcaa;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+.dropbtn {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #000;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f1d8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 100%; /* Para aparecer abaixo */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1daaa;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilo principal */
 main {
   padding: 20px;
-  z-index: 1;
-  position: relative;
+}
+
+/* Logo no fundo */
+body::before {
+  content: "";
+  background-image: url("imagens/LogoBig[1].jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+  opacity: 0.05;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }
