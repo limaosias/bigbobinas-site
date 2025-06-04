@@ -76,6 +76,12 @@ body {
 main {
   padding: 20px;
 }
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 /* Logo no fundo */
 body::before {
