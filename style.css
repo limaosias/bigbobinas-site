@@ -5,6 +5,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 header {
   display: flex;
   align-items: center;
@@ -21,7 +22,7 @@ header {
 
 .navbar {
   background-color: #edd8a0;
-  color: #222222;
+  color:  #117733;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -60,7 +61,7 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: #666;
+  background-color:  #117733;
 }
 
 .show {
