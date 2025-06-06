@@ -41,6 +41,11 @@ header {
   border: none;
   cursor: pointer;
 }
+navbar a:hover,
+.dropbtn:hover {
+  background-color: #117733;
+  color: white;
+}
 .dropdown {
   position: relative;
 }
