@@ -25,6 +25,8 @@ header {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
 }
 .navbar a, .dropbtn {
   color:#117733;   
