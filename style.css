@@ -29,8 +29,7 @@ header {
 }
 
 .navbar a, .dropbtn {
-  color:#117733; ;
-  ;
+  color:#117733;   
   padding: 10px;
   text-decoration: none;
   background: none;  
@@ -60,8 +59,9 @@ header {
   display: block;
 }
 
+
 .dropdown-content a:hover {
-  background-color:  #117733;
+  background-color: #117733;
 }
 
 .show {
