@@ -52,6 +52,8 @@ header {
 }
 .navbar a:hover, .dropbtn:hover {
   background-color: #edd8a0;
+}
+
   
   color: white; /* Texto branco ao passar o mouse */
 
