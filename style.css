@@ -26,7 +26,6 @@ header {
   gap: 15px;
   flex-wrap: wrap;
 }
-
 .navbar a, .dropbtn {
   color:#117733;   
   padding: 10px;
@@ -72,6 +71,7 @@ header {
 .show {
   display: flex;
 }
+
 
 main {
   padding: 20px;
