@@ -20,9 +20,8 @@ header {
   margin-right: 20px;
 }
 
-.navbar a:hover {
+.navbar {
   background-color: #edd8a0;
-  color:  #117733;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -51,6 +50,10 @@ header {
   left: 0;
   flex-direction: column;
 }
+.navbar a:hover, .dropbtn:hover {
+  background-color: #edd8a0;
+  
+  color: white; /* Texto branco ao passar o mouse */
 
 .dropdown-content a {
   color: white;
