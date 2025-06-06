@@ -20,7 +20,7 @@ header {
   margin-right: 20px;
 }
 
-.navbar {
+.navbar a:hover {
   background-color: #edd8a0;
   color:  #117733;
   display: flex;
@@ -41,7 +41,7 @@ header {
   position: relative;
 }
 
-.dropdown-content {
+.dropdown-content a:hover {
   display: none;
   position: absolute;
   background-color: #edd8a0 ;
