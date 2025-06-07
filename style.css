@@ -12,10 +12,11 @@ body {
 
 .topo {
   background-color: #e8cf91;
-  display: flex;
-  justify-content: space-between;
+  display: flex; /* Deixa logo e menu na mesma linha */
   align-items: center;
   padding: 10px 30px;
+  gap: 30px; /* Espaço entre logo e menu */
+  flex-wrap: wrap;
 }
 
 .logo {
