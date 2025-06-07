@@ -9,6 +9,10 @@ body {
   font-family: Arial, sans-serif;
   background-color: #fdf4e3;
   color: #222;
+  background-image: url('https://raw.githubusercontent.com/limaosias/bigbobinas-site/main/imagens/LogoBig2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 /* TOPO: logo e menu alinhados à esquerda */
