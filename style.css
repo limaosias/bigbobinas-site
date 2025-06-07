@@ -14,6 +14,21 @@ body {
   background-position: center;
   background-size: contain;
 }
+body::before {
+  content: "";
+  background-image: url('https://raw.githubusercontent.com/limaosias/bigbobinas-site/main/imagens/LogoBig2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.03;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Fica atrás de tudo */
+}
+
 
 /* TOPO: logo e menu alinhados à esquerda */
 .topo {
