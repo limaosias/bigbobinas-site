@@ -41,7 +41,7 @@ header {
   border: none;
   cursor: pointer;
 }
-navbar a:hover,
+.navbar a:hover,
 .dropbtn:hover {
   background-color: #117733;
   color: white;
