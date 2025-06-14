@@ -1,13 +1,14 @@
 /* RESET */
 * {
   margin: 0;
+  
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color:  #edd8a0;
+  background-color:  #fdf4e3;
   color: #222;}
 /* TOPO: logo e menu alinhados à esquerda */
 .topo {
@@ -45,14 +46,14 @@ body {
 .navbar a:hover,
 .dropbtn:hover {
   background-color: # #117733; 
+  color: white;
   border-radius: 4px;
 }
 
 /* DROPDOWN */
 .dropdown {
-  position: relative;
-  display: inline-block;
-
+  position: relative;  
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -70,7 +71,8 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #647711;/#f0f0f0;/
+  background-color: #647711;
+  
 }
 
 .dropdown:hover .dropdown-content {
